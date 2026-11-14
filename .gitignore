@@ -1,0 +1,18 @@
+# Local environments and Python caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+
+# Local configuration and operating-system files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Raw quarterly trip data and generated datasets/models
+data/processed/
+outputs/
+*.pkl
+*.joblib
