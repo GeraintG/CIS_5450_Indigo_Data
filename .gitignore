@@ -11,8 +11,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Raw quarterly trip data and generated datasets/models
+# data and generated datasets/models
 data/full_data.csv
+processed/
 outputs/
 *.pkl
 *.joblib
